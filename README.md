@@ -1,5 +1,6 @@
 yarn
 yarn start
+open http://localhost:3000/
 
 check utils/helpers/storageKeys.tsx => acessToken name;
 
