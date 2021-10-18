@@ -1,0 +1,67 @@
+@import 'style/variables';
+
+  .deep-gray-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    line-height: 125%;
+    color: #1B0C3D;
+  }
+  .gray-text {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #8D869E;
+  }
+  .orange-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    line-height: 125%;
+    color: #F5781E;
+  }
+  .message-title {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 125%;
+    color: #171725;
+  }
+  .message-text {
+    font-family: $font-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    color: #A49EB1;
+  }
+  .blue-text {
+    font-family: $font-content;
+    font-size: 17px;
+    line-height: 150%;
+    color: #0D9CC9;
+  }
+  .white-text {
+    font-family: $font-content;
+    font-size: 17px;
+    line-height: 150%;
+    color: #0D9CC9;
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+  .hello-kid {
+    font-size: 42px;
+    font-weight: 800;
+    fill: #4D1C9F;
+    pointer-events: none;
+  }
+
+  .hover-style:hover {
+   cursor: pointer;
+  }
+
+  .not-active-pack {
+    filter: grayscale(100%);
+  }

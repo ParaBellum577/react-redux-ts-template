@@ -1,0 +1,222 @@
+.buttomPrimary {
+  height: 56px;
+  width: 180px;
+  background: linear-gradient(180deg, #17ecdf 0%, #0b8e86 100%);
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 7px 15px #d2f6f4;
+  }
+  &:active {
+    box-shadow: none;
+  }
+  &:disabled {
+    opacity: 0.7;
+    cursor: default;
+  }
+}
+
+.buttonOrange {
+  height: 42px;
+  width: 180px;
+  background: linear-gradient(360deg, #f5781e 0%, #ffc148 100%);
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 7px 15px #f6e3d2;
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.buttonWhite {
+  height: 44px;
+  width: 145px;
+  border-radius: 40px;
+  border: 1px solid #e8e7ec;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: ProximaNova;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #5f5577;
+  cursor: pointer;
+}
+
+.buttonBlue {
+  height: 42px;
+  width: 80px;
+  background: linear-gradient(180deg, #12bbf0 0%, #5348da 100%);
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 7px 15px #d2dcf6;
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.buttonSquareBlue {
+  height: 42px;
+  width: 180px;
+  background: #00b5ba;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.buttonBlack {
+  height: 42px;
+  width: 180px;
+  background: #171719;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.buttonYellowSecondary {
+  height: 42px;
+  width: 180px;
+  background: linear-gradient(180deg, #ffe100 0%, #f3b50d 100%);
+  border: 1.7px solid #ffe629;
+  border-radius: 18.5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #9f7907;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 7px 15px #fcf1b6;
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.buttonOutline {
+  height: 42px;
+  width: 180px;
+  background: #fff;
+  border: 1px solid #00b5ba;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #00b5ba;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: #eff7f7;
+  }
+  &:active {
+    background: #fff;
+  }
+}
+
+.buttonCancelOutline {
+  height: 42px;
+  width: 180px;
+  background: #fff;
+  border: 1px solid #0d9cc9;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #0d9cc9;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: #ebf9fd;
+    box-shadow: 0px 3px 10px #f1f7ff;
+  }
+  &:active {
+    background: #fff;
+  }
+}
+
+.buttonCancelOutlineRadius {
+  height: 56px;
+  width: 254px;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 10px #F1F7FF;
+  border-radius: 100px;
+  background: #fff;
+  border: 1px solid #0d9cc9;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #0d9cc9;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: #ebf9fd;
+    box-shadow: 0px 3px 10px #f1f7ff;
+  }
+  &:active {
+    background: #fff;
+  }
+}
+
+.sideBarButton {
+  height: 56px;
+  width: 262px;
+  border-radius: 50px;
+  background: #096b8b;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 125%;
+  color: #f5fdff;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 3px 10px #a3b6d0;
+  }
+}
